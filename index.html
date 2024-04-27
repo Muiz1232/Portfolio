@@ -4,50 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Python Bot Developer</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1, h2, h3 {
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+        }
+        .project {
+            background-color: #fff;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .project h2 {
+            color: #333;
+        }
+        .project p {
+            color: #666;
+        }
+        .project a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .project a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Portfolio - Python Bot Developer</h1>
-        </div>
+        <h1>Portfolio - Python Bot Developer</h1>
     </header>
-
-    <section id="projects">
-        <div class="container">
-            <div class="project">
-                <h2>Telegram Bot</h2>
-                <p>A Python bot developed using Pyrogram for the Telegram messaging app.</p>
-                <p>GitHub: <a href="https://github.com/your_username/telegram-bot" target="_blank">https://github.com/your_username/telegram-bot</a></p>
-            </div>
-            <div class="project">
-                <h2>Discord Bot</h2>
-                <p>A Python bot developed using discord.py for the Discord chat platform.</p>
-                <p>GitHub: <a href="https://github.com/your_username/discord-bot" target="_blank">https://github.com/your_username/discord-bot</a></p>
-            </div>
-            <div class="project">
-                <h2>Twitter Bot</h2>
-                <p>A Python bot developed using Tweepy for automating tasks on Twitter.</p>
-                <p>GitHub: <a href="https://github.com/your_username/twitter-bot" target="_blank">https://github.com/your_username/twitter-bot</a></p>
-            </div>
-            <div class="project">
-                <h2>Reddit Bot</h2>
-                <p>A Python bot developed using PRAW for interacting with Reddit communities.</p>
-                <p>GitHub: <a href="https://github.com/your_username/reddit-bot" target="_blank">https://github.com/your_username/reddit-bot</a></p>
-            </div>
-            <div class="project">
-                <h2>Slack Bot</h2>
-                <p>A Python bot developed using Slack API for automating tasks on Slack.</p>
-                <p>GitHub: <a href="https://github.com/your_username/slack-bot" target="_blank">https://github.com/your_username/slack-bot</a></p>
-            </div>
-            <!-- Add more projects here -->
+    <section>
+        <div class="project">
+            <h2>Telegram Bot</h2>
+            <p>A Python bot developed using Pyrogram for the Telegram messaging app.</p>
+            <p>GitHub: <a href="https://github.com/your_username/telegram-bot" target="_blank">https://github.com/your_username/telegram-bot</a></p>
         </div>
+        <div class="project">
+            <h2>Discord Bot</h2>
+            <p>A Python bot developed using discord.py for the Discord chat platform.</p>
+            <p>GitHub: <a href="https://github.com/your_username/discord-bot" target="_blank">https://github.com/your_username/discord-bot</a></p>
+        </div>
+        <!-- Add more projects here -->
     </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Python Bot Developer Portfolio. All rights reserved.</p>
-        </div>
-    </footer>
 </body>
 </html>
